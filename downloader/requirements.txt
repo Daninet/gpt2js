@@ -1,0 +1,10 @@
+requests==2.27.1 # used to download gpt-2 files from openai
+tqdm==4.64.0 # progress bar to keep your sanity
+
+# used to load the gpt-2 weights from the open-ai tf checkpoint
+# M1 Macbooks require tensorflow-macos
+tensorflow==2.11.0; sys_platform != 'darwin' or platform_machine != 'arm64'
+tensorflow-macos==2.11.0; sys_platform == 'darwin' and platform_machine == 'arm64'
+
+msgpack==1.0.5
+msgpack-numpy==0.4.8

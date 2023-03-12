@@ -1,0 +1,16 @@
+{
+  "name": "gpt2js",
+  "version": "1.0.0",
+  "description": "gpt2 JavaScript implementation",
+  "main": "gpt2.js",
+  "scripts": {
+    "start": "cross-env TF_CPP_MIN_LOG_LEVEL=1 node index.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow/tfjs-backend-wasm": "^4.2.0",
+    "@tensorflow/tfjs-node": "^4.2.0",
+    "cross-env": "^7.0.3"
+  }
+}
